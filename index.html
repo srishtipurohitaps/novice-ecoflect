@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFlect - Reflect on Your Environmental Impact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="Ecoflect Logo.png" alt="EcoFlect Logo" class="logo-img" width="60" height="60">
+            <h1>EcoFlect</h1>
+            <p>Your Companion for a Greener Future</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#ai-suggestions">AI Suggestions</a></li>
+                <li><a href="#chatbot">Chatbot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Make Smarter, Greener Choices</h2>
+            <p>Discover sustainable alternatives powered by AI. Let’s make the planet a better place, one choice at a time.</p>
+        </div>
+        <div class="hero-image">
+            <img src="naturebg.png" alt="Nature Background" width="200" height="200">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>About EcoFlect</h2>
+            <p>EcoFlect is a platform dedicated to helping individuals make environmentally conscious decisions. Using AI algorithms, EcoFlect provides personalized suggestions to reduce carbon footprints in everyday life.</p>
+        </div>
+    </section>
+
+    <!-- AI Suggestions Section -->
+    <section id="ai-suggestions" class="section ai">
+        <div class="container">
+            <h2>Get Personalized AI Suggestions</h2>
+            <form id="ai-form">
+                <label for="goal">What’s your environmental goal?</label>
+                <input type="text" id="goal" placeholder="e.g., Reduce plastic waste, Save energy, etc." required>
+
+                <label for="preferences">Any preferences or focus areas?</label>
+                <input type="text" id="preferences" placeholder="e.g., Renewable energy, Recycling, etc." required>
+
+                <button type="submit" class="cta-button">Get AI Suggestions</button>
+            </form>
+
+            <div id="ai-output" class="output-container">
+                <p>Enter your details above to get personalized suggestions!</p>
+            </div>
+        </div>
+    </section>
+    <section id="chatbot" class="chatbot-section">
+        <h2>Chat with Our Sustainability Bot</h2>
+        <iframe 
+            src="https://web.powerva.microsoft.com/environments/Default-993ebf67-a1b4-4124-9529-fe4ee2eb1f43/bots/cr4f1_sustainabilityInsights/webchat?__version__=2" 
+            frameborder="0" 
+            class="chatbot-iframe">
+        </iframe>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EcoFlect. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="ecoflect.js"></script>
+</body>
+</html>
